@@ -1,0 +1,42 @@
+body {box-sizing: border-box;
+background-color: rgba(258,238,160,0.75);
+max-height: 100%}
+
+  #hookline {
+  text-align: center;
+  font-family: Parisienne;
+  font-weight: wider;
+  color: rgba(0,0,216,0.7);
+}
+
+.flex-container {
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+}
+
+.little-boxes {
+  position: relative;
+  border: 2px solid #0000d8;
+  border-radius: 5px;
+  margin: 3px 20px 3px 20px;
+}
+
+#editor {
+  height: 45vh;
+  padding: 0% 5% 2% 5%;
+  padding-bottom: 0;
+  overflow: auto;
+  background-color: #e4f0dd;
+  font-family: Oxygen;
+}
+
+#preview {
+  height: 45vh;
+  overflow: auto;
+  padding: 0% 5%;
+  background-color:rgba(230,230,250,0.85);
+  color: #0000d8;
+  font-family: "Times New Roman";
+}
+
